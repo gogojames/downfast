@@ -1,0 +1,16 @@
+[package]
+name = "downfast"
+version = "0.1.0"
+authors = ["gogojames <y.james518@gamil.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest= "0.10.8"
+url="2.1.1"
+tokio = { version = "0.2.17", features = ["full"] }
+async-std = "1.5.0"
+futures = "0.3"
+indicatif="0.14.0"
+clap = "2.33.0"
